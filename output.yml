@@ -1,0 +1,135 @@
+destination.address: Destination network address.
+destination.bytes: Bytes sent from the destination to the source.
+destination.domain: The domain name of the destination.
+destination.ip: IP address of the destination.
+destination.mac: MAC address of the destination.
+destination.packets: Packets sent from the destination to the source.
+destination.port: Port of the destination.
+destination.user.domain: Name of the directory the user is a member of.
+destination.user.email: User email address.
+destination.user.full_name: Users full name, if available.
+destination.user.group.domain: Name of the directory the group is a member of.
+destination.user.group.id: Unique identifier for the group on the system/platform.
+destination.user.group.name: Name of the group.
+destination.user.id: Unique identifier of the user.
+destination.user.name: Short name or login of the user.
+event.action: The action captured by the event.
+event.created: Time when the event was first read by an agent or by your pipeline.
+event.code: Identification code for this event.
+event.duration: Duration of the event in nanoseconds.
+event.end: event.end contains the date when the event ended or when the activity was last observed.
+event.id: Unique ID to describe the event.
+event.severity: Numeric severity of the event.
+file.directory: Directory where the file is located.
+file.extension: File extension, excluding the leading dot.
+file.gid: Primary group ID (GID) of the file.
+file.group: Primary group name of the file.
+file.hash.md5: MD5 hash.
+file.hash.sha1: SHA1 hash.
+file.hash.sha256: SHA256 hash.
+file.inode: Inode representing the file in the filesystem.
+file.name: Name of the file including the extension, without the directory.
+file.path: Full path to the file, including the file name.
+file.size: File size in bytes.
+file.uid: The user ID (UID) or security identifier (SID) of the file owner.
+group.domain: Name of the directory the group is a member of.
+group.id: Unique identifier for the group on the system/platform.
+group.name: Name of the group.
+http.request.method: HTTP request method.
+http.response.status_code: HTTP response status code.
+http.version: HTTP version.
+network.application: Application level protocol name.
+network.bytes: Total bytes transferred in both directions.
+network.direction: Direction of the network traffic.
+network.packets: Total packets transferred in both directions.
+network.protocol: Application protocol name.
+network.transport: Protocol Name corresponding to the field `iana_number`.
+network.type: In the OSI Model this would be the Network Layer. ipv4, ipv6, ipsec, pim, etc
+organization.id: Unique identifier for the organization.
+organization.name: Organization name.
+process.args: Array of process arguments.
+process.args_count: Length of the process.args array.
+process.command_line: Full command line that started the process.
+process.end: The time the process ended.
+process.executable: Absolute path to the process executable.
+process.hash.md5: MD5 hash.
+process.hash.sha1: SHA1 hash.
+process.hash.sha256: SHA256 hash.
+process.name: Process name.
+process.parent.args: Array of process arguments.
+process.parent.args_count: Length of the process.args array.
+process.parent.command_line: Full command line that started the process.
+process.parent.end: The time the process ended.
+process.parent.executable: Absolute path to the process executable.
+process.parent.group.id: Unique identifier for the group on the system/platform.
+process.parent.group.name: Name of the group.
+process.parent.hash.md5: MD5 hash.
+process.parent.hash.sha1: SHA1 hash.
+process.parent.hash.sha256: SHA256 hash.
+process.parent.name: Process name.
+process.parent.pgid: Deprecated identifier of the group of processes the process belongs to.
+process.parent.pid: Process id.
+process.parent.start: The time the process started.
+process.parent.thread.id: Thread ID.
+process.parent.thread.name: Thread name.
+process.parent.user.id: Unique identifier of the user.
+process.parent.user.name: Short name or login of the user.
+process.pgid: Deprecated identifier of the group of processes the process belongs to.
+process.pid: Process id.
+process.start: The time the process started.
+process.thread.id: Thread ID.
+process.thread.name: Thread name.
+process.user.id: Unique identifier of the user.
+process.user.name: Short name or login of the user.
+rule.author: Rule author
+rule.category: Rule category
+rule.description: Rule description
+rule.id: Rule ID
+rule.license: Rule license
+rule.name: Rule name
+rule.reference: Rule reference URL
+rule.ruleset: Rule ruleset
+rule.uuid: Rule UUID
+rule.version: Rule version
+source.address: Source network address.
+source.bytes: Bytes sent from the source to the destination.
+source.domain: The domain name of the source.
+source.ip: IP address of the source.
+source.mac: MAC address of the source.
+source.packets: Packets sent from the source to the destination.
+source.port: Port of the source.
+source.user.domain: Name of the directory the user is a member of.
+source.user.email: User email address.
+source.user.full_name: Users full name, if available.
+source.user.group.domain: Name of the directory the group is a member of.
+source.user.group.id: Unique identifier for the group on the system/platform.
+source.user.group.name: Name of the group.
+source.user.id: Unique identifier of the user.
+source.user.name: Short name or login of the user.
+source.user.roles: Array of user roles at the time of the event.
+tls.server.x509.alternative_names: List of subject alternative names (SAN).
+tls.server.x509.issuer.common_name: List of common name (CN) of issuing certificate authority.
+threat.framework: Threat classification framework.
+threat.tactic.id: Threat tactic id.
+threat.tactic.name: Threat tactic.
+threat.technique.id: Threat technique id.
+threat.technique.name: Threat technique name.
+url.domain: Domain of the url.
+url.extension: File extension from the request url, excluding the leading dot.
+url.fragment: Portion of the url after the `#`.
+url.full: Full unparsed URL.
+url.original: Unmodified original url as seen in the event source.
+url.path: Path of the request, such as "/search".
+url.port: Port of the request, such as 443.
+url.query: Query string of the request.
+url.scheme: Scheme of the url.
+user.domain: Name of the directory the user is a member of.
+user.email: User email address.
+user.full_name: Users full name, if available.
+user.group.domain: Name of the directory the group is a member of.
+user.group.id: Unique identifier for the group on the system/platform.
+user.group.name: Name of the group.
+user.id: Unique identifier of the user.
+user.name: Short name or login of the user.
+user.roles: Array of user roles at the time of the event.
+user_agent.original: Unparsed user_agent string.
